@@ -1,0 +1,35 @@
+Nomenclatures in Demo Banking Systems.
+
+This document describes the naming conventions used for the different types of components within the system.
+In real banking environments, it is usually mandatory to follow specific naming standards whenever new components are developed.
+
+The naming convention depends on the type of component being created.
+Remember that in IBM z/OS Mainframe environments, components names such as JCLs, COBOL Programs, and COPYBOOKs are limited to 8 characters.
+
+1) COPYBOOKS - TEMPLATES:
+For this project, the following naming convention will be used for COPYBOOKs.
+
+EXAMPLE:
+
+BK + CD + EX + I + 0
+
+BK - Banking Environment
+CD - Sector 
+EX - Copy for External or Internal file
+I  - Input File
+0  - Component Versioning
+
+In this example, the COPYBOOK represents an external file received through a transfer process. The file serves as an INPUT for a Card Department procedure within the Banking environment.
+
+Therefore, the component name will be:
+BKCDEXI0
+
+2) JOBs (JCL):
+
+To be defined
+
+
+3) COBOL PGM:
+
+To be defined
+
