@@ -1,4 +1,4 @@
-# Nomenclatures in Demo Banking Systems.
+# Naming Conventions in Demo Banking Systems.
 
 This document describes the naming conventions used for the different types of components within the system.
 In real banking environments, it is usually mandatory to follow specific naming standards whenever new components are developed.
